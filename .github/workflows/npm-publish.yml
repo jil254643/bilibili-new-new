@@ -34,3 +34,6 @@ jobs:
           COOKIE: ${{ secrets.COOKIE }}
           SERVER_SECRET: ${{ secrets.SERVER_SECRET }}
         run: npm ci && node index.js "${COOKIE}" ${SERVER_SECRET}
+
+
+
